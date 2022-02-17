@@ -168,7 +168,7 @@ class Soap11(XmlDocument):
     mime_type = 'text/xml; charset=utf-8'
 
     type = set(XmlDocument.type)
-    type.update(('soap', 'soap11'))
+    #type.update(('soap', 'soap11'))
 
     ns_soap_env = ns.NS_SOAP11_ENV
     ns_soap_enc = ns.NS_SOAP11_ENC
